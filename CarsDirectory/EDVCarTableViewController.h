@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  EDVCarTableViewController.h
 //  CarsDirectory
 //
 //  Created by Dmitry Edrenov on 17.02.19.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface EDVCarTableViewController : UITableViewController
 
 @end
-

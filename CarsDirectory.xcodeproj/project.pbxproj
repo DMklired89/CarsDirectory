@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		E0B808A52218A141001D8FDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B808A42218A141001D8FDD /* main.m */; };
 		E0B808A82218A142001D8FDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B808A72218A142001D8FDD /* AppDelegate.m */; };
-		E0B808AB2218A142001D8FDD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B808AA2218A142001D8FDD /* ViewController.m */; };
 		E0B808AE2218A142001D8FDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0B808AC2218A142001D8FDD /* Main.storyboard */; };
 		E0B808B12218A143001D8FDD /* CarsDirectory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E0B808AF2218A142001D8FDD /* CarsDirectory.xcdatamodeld */; };
 		E0B808B32218A143001D8FDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0B808B22218A143001D8FDD /* Assets.xcassets */; };
 		E0B808B62218A143001D8FDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0B808B42218A143001D8FDD /* LaunchScreen.storyboard */; };
+		E0B808BF2218A1B9001D8FDD /* EDVCarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B808BE2218A1B9001D8FDD /* EDVCarTableViewController.m */; };
+		E0B808C22218A1E7001D8FDD /* EDVCarDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B808C12218A1E7001D8FDD /* EDVCarDetailViewController.m */; };
+		E0B808C72218A3D1001D8FDD /* EDVNewCar+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B808C42218A3D1001D8FDD /* EDVNewCar+CoreDataClass.m */; };
+		E0B808C82218A3D1001D8FDD /* EDVNewCar+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B808C62218A3D1001D8FDD /* EDVNewCar+CoreDataProperties.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +24,19 @@
 		E0B808A42218A141001D8FDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E0B808A62218A141001D8FDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0B808A72218A142001D8FDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E0B808A92218A142001D8FDD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E0B808AA2218A142001D8FDD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E0B808AD2218A142001D8FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0B808B02218A142001D8FDD /* CarsDirectory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarsDirectory.xcdatamodel; sourceTree = "<group>"; };
 		E0B808B22218A143001D8FDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0B808B52218A143001D8FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0B808B72218A143001D8FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0B808BD2218A1B9001D8FDD /* EDVCarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDVCarTableViewController.h; sourceTree = "<group>"; };
+		E0B808BE2218A1B9001D8FDD /* EDVCarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDVCarTableViewController.m; sourceTree = "<group>"; };
+		E0B808C02218A1E7001D8FDD /* EDVCarDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDVCarDetailViewController.h; sourceTree = "<group>"; };
+		E0B808C12218A1E7001D8FDD /* EDVCarDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDVCarDetailViewController.m; sourceTree = "<group>"; };
+		E0B808C32218A3D1001D8FDD /* EDVNewCar+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "EDVNewCar+CoreDataClass.h"; path = "../EDVNewCar+CoreDataClass.h"; sourceTree = "<group>"; };
+		E0B808C42218A3D1001D8FDD /* EDVNewCar+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "EDVNewCar+CoreDataClass.m"; path = "../EDVNewCar+CoreDataClass.m"; sourceTree = "<group>"; };
+		E0B808C52218A3D1001D8FDD /* EDVNewCar+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "EDVNewCar+CoreDataProperties.h"; path = "../EDVNewCar+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E0B808C62218A3D1001D8FDD /* EDVNewCar+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "EDVNewCar+CoreDataProperties.m"; path = "../EDVNewCar+CoreDataProperties.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +71,14 @@
 			children = (
 				E0B808A62218A141001D8FDD /* AppDelegate.h */,
 				E0B808A72218A142001D8FDD /* AppDelegate.m */,
-				E0B808A92218A142001D8FDD /* ViewController.h */,
-				E0B808AA2218A142001D8FDD /* ViewController.m */,
 				E0B808AC2218A142001D8FDD /* Main.storyboard */,
 				E0B808B22218A143001D8FDD /* Assets.xcassets */,
 				E0B808B42218A143001D8FDD /* LaunchScreen.storyboard */,
 				E0B808B72218A143001D8FDD /* Info.plist */,
 				E0B808AF2218A142001D8FDD /* CarsDirectory.xcdatamodeld */,
+				E0B808CA2219630A001D8FDD /* Table view */,
+				E0B808CB2219632C001D8FDD /* Detail view */,
+				E0B808C9221962C2001D8FDD /* Core data classes */,
 				E0B808A32218A141001D8FDD /* Supporting Files */,
 			);
 			path = CarsDirectory;
@@ -80,6 +90,35 @@
 				E0B808A42218A141001D8FDD /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0B808C9221962C2001D8FDD /* Core data classes */ = {
+			isa = PBXGroup;
+			children = (
+				E0B808C32218A3D1001D8FDD /* EDVNewCar+CoreDataClass.h */,
+				E0B808C42218A3D1001D8FDD /* EDVNewCar+CoreDataClass.m */,
+				E0B808C52218A3D1001D8FDD /* EDVNewCar+CoreDataProperties.h */,
+				E0B808C62218A3D1001D8FDD /* EDVNewCar+CoreDataProperties.m */,
+			);
+			name = "Core data classes";
+			sourceTree = "<group>";
+		};
+		E0B808CA2219630A001D8FDD /* Table view */ = {
+			isa = PBXGroup;
+			children = (
+				E0B808BD2218A1B9001D8FDD /* EDVCarTableViewController.h */,
+				E0B808BE2218A1B9001D8FDD /* EDVCarTableViewController.m */,
+			);
+			name = "Table view";
+			sourceTree = "<group>";
+		};
+		E0B808CB2219632C001D8FDD /* Detail view */ = {
+			isa = PBXGroup;
+			children = (
+				E0B808C02218A1E7001D8FDD /* EDVCarDetailViewController.h */,
+				E0B808C12218A1E7001D8FDD /* EDVCarDetailViewController.m */,
+			);
+			name = "Detail view";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,8 +193,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0B808B12218A143001D8FDD /* CarsDirectory.xcdatamodeld in Sources */,
-				E0B808AB2218A142001D8FDD /* ViewController.m in Sources */,
+				E0B808C72218A3D1001D8FDD /* EDVNewCar+CoreDataClass.m in Sources */,
+				E0B808BF2218A1B9001D8FDD /* EDVCarTableViewController.m in Sources */,
 				E0B808A82218A142001D8FDD /* AppDelegate.m in Sources */,
+				E0B808C22218A1E7001D8FDD /* EDVCarDetailViewController.m in Sources */,
+				E0B808C82218A3D1001D8FDD /* EDVNewCar+CoreDataProperties.m in Sources */,
 				E0B808A52218A141001D8FDD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +353,7 @@
 				E0B808BC2218A143001D8FDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
